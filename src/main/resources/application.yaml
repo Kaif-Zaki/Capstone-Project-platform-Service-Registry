@@ -4,7 +4,7 @@ spring:
     name: service-registry
 
   config:
-    import: "optional:configserver:"
+    import: "configserver:"
 
   cloud:
     config:
